@@ -1,0 +1,26 @@
+cat << 'EOF' > .gitignore
+# Checkpoints & Weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.engine
+
+# Raw Datasets & Large Archives
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+cache/
+*.tar.gz
+*.zip
+*.h5
+
+# Environments & Caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+EOF
