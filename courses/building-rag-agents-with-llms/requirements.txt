@@ -1,0 +1,4 @@
+# Keep the PyTorch/CUDA installation supplied by the pinned dev container.
+transformers==4.52.4
+huggingface-hub>=0.30.0,<1.0
+ipywidgets>=8.1,<9

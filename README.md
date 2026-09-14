@@ -56,13 +56,13 @@ Before opening the container, make sure the NVIDIA driver supports GPU access in
 
 2. Run **Dev Containers: Reopen in Container** from the VS Code Command Palette. The first launch downloads the NVIDIA PyTorch image.
 3. In the container terminal, run `nvidia-smi` to confirm that the GPU is visible.
-4. Follow the [RAG course README](courses/building-rag-agents-with-llms/README.md) to initialize the starter notebook and select the container's Python kernel.
+4. Follow the [RAG course README](courses/building-rag-agents-with-llms/README.md) to install the course dependencies, select the container's Python kernel, and open the guided local-GPU notebook.
 
 ## Courses and progress
 
 | Course | Status |
 | --- | --- |
-| [Building RAG Agents with LLMs](courses/building-rag-agents-with-llms/README.md) | Environment scaffold added; starter notebook awaiting initialization |
+| [Building RAG Agents with LLMs](courses/building-rag-agents-with-llms/README.md) | Local-GPU notebook scaffolded; first generation exercise pending |
 
 Course-specific dependencies, notes, and progress belong with the corresponding course. Keep scratch work in `playground/`; move genuinely reusable helpers into `shared_utils/` when there is code to share.
 
